@@ -21,5 +21,6 @@ fun task3(): String {
     return (foo("a") +
             foo("b", number = 1) +
             foo("c", toUpperCase = true) +
-            foo(name = "d", number = 2, toUpperCase = true))
+            foo(name = "d", number = 2, toUpperCase = true) +
+            foo("e", toUpperCase = true))
 }
